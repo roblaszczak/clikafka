@@ -1,8 +1,6 @@
 package: clikafka
 import:
-- package: github.com/Shopify/sarama
-  version: ^1.10.1
 - package: github.com/fatih/color
-  version: ^1.1.0
-- package: gopkg.in/alecthomas/kingpin.v2
-  version: ^2.2.3
+- package: github.com/nu7hatch/gouuid
+- package: github.com/roblaszczak/simple-kafka
+- package: github.com/urfave/cli
